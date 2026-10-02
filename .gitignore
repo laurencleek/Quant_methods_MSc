@@ -1,0 +1,33 @@
+# Large data files (keep raw data out of git; small source workbooks are fine)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.RData
+*.dta
+*.sav
+*.sqlite
+*.db
+*.zip
+*.gz
+*.tar
+data/raw/
+data/large/
+outputs/
+
+# Excel temp/lock files
+~$*
+.~lock.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
